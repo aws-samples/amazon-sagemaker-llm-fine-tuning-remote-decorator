@@ -1,0 +1,2 @@
+peft @ git+https://github.com/huggingface/peft.git@e2b8e3260d3eeb736edf21a2424e89fe3ecf429d
+py7zr

@@ -1,17 +1,5 @@
-## My Project
+# Fine-tune Falcon 7B on Amazon SageMaker using @remote decorator
 
-TODO: Fill this README out!
+In this example we will go through the steps required for fine-tuning Falcon 7B on Amazon SageMaker by using @remote decorator for executing SageMaker Training jobs.
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+You can run this repository from Amazon SageMaker Studio or from your local IDE.

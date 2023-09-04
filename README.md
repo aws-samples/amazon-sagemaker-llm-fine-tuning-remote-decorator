@@ -1,6 +1,6 @@
-# Fine-tune Falcon 7B on Amazon SageMaker using @remote decorator
+# Fine-tune Foundation Models on Amazon SageMaker using @remote decorator
 
-In this example we will go through the steps required for fine-tuning Falcon 7B on Amazon SageMaker by using @remote decorator for executing SageMaker Training jobs.
+In this example we will go through the steps required for fine-tuning foundation models on Amazon SageMaker by using @remote decorator for executing SageMaker Training jobs.
 
 You can run this repository from Amazon SageMaker Studio or from your local IDE.
 
@@ -14,3 +14,8 @@ The dataset is the content of all AWS FAQ pages, downloaded from: https://aws.am
 | /ec2/autoscaling/faqs/    | When should I use Amazon EC2 Auto Scaling vs. ...   | You should use AWS Auto Scaling to manage scal... |
 | /ec2/autoscaling/faqs/   | How is Predictive Scaling Policy different fro... | Predictive Scaling Policy brings the similar p... |
 | /ec2/autoscaling/faqs/ | What are the benefits of using Amazon EC2 Auto... | Amazon EC2 Auto Scaling helps to maintain your... |
+
+## Notebooks
+
+1. [Falcon-7B](./falcon-7b-qlora-remote-decorator_qa.ipynb)
+2. [Llama-13B](./llama-13b-qlora-remote-decorator_qa.ipynb)

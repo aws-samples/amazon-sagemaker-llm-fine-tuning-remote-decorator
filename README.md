@@ -17,5 +17,6 @@ The dataset is the content of all AWS FAQ pages, downloaded from: https://aws.am
 
 ## Notebooks
 
-1. [Falcon-7B](./falcon-7b-qlora-remote-decorator_qa.ipynb)
-2. [Llama-13B](./llama-13b-qlora-remote-decorator_qa.ipynb)
+1. [[Supervised - Q&A] Falcon-7B](./falcon-7b-qlora-remote-decorator_qa.ipynb)
+2. [[Supervised - Q&A] Llama-13B](./llama-13b-qlora-remote-decorator_qa.ipynb)
+3. [[Unsupervised - chat] Llama-13B](./llama-13b-qlora-remote-decorator_unsupervised.ipynb)

@@ -7,3 +7,6 @@ SageMaker:
         ImageUri: '763104351884.dkr.ecr.eu-west-1.amazonaws.com/huggingface-pytorch-training:2.0.0-transformers4.28.1-gpu-py310-cu118-ubuntu20.04'
         InstanceType: ml.g5.12xlarge
         RoleArn:
+  Model:
+    ExecutionRoleArn: 
+    EnableNetworkIsolation: false

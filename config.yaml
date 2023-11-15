@@ -8,5 +8,5 @@ SageMaker:
         InstanceType: ml.g5.12xlarge
         RoleArn:
   Model:
-    ExecutionRoleArn: 
+    ExecutionRoleArn:
     EnableNetworkIsolation: false

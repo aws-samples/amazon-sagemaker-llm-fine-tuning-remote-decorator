@@ -3,5 +3,6 @@ peft==0.6.2
 accelerate==0.24.1
 bitsandbytes==0.41.2.post2
 safetensors>=0.3.1
+sagemaker==2.200.1
 tokenizers>=0.13.3
 py7zr

@@ -6,6 +6,8 @@ You can run this repository from Amazon SageMaker Studio or from your local IDE.
 
 ## Dataset
 
+### [train.csv.gz](./train.csv.gz)
+
 The dataset is the content of all AWS FAQ pages, downloaded from: https://aws.amazon.com/faqs/
 
 | service | question | answers |
@@ -14,6 +16,15 @@ The dataset is the content of all AWS FAQ pages, downloaded from: https://aws.am
 | /ec2/autoscaling/faqs/    | When should I use Amazon EC2 Auto Scaling vs. ...   | You should use AWS Auto Scaling to manage scal... |
 | /ec2/autoscaling/faqs/   | How is Predictive Scaling Policy different fro... | Predictive Scaling Policy brings the similar p... |
 | /ec2/autoscaling/faqs/ | What are the benefits of using Amazon EC2 Auto... | Amazon EC2 Auto Scaling helps to maintain your... |
+
+### [train_2.csv.gz](./train_2.csv.gz)
+
+| question | answers |
+|-------|-------|
+| What new Anthropic model is now available on Amazon Bedrock?   | Claude 2.1 foundation model is now available on Amazon Bedrock.  |
+| What are the two types of model evaluation available in Amazon Bedrock?   | Amazon Bedrock offers a choice of automatic evaluation and human evaluation. |
+| What kind of metrics can you use for automatic evaluation? | You can use automatic evaluation with predefined metrics such as accuracy, robustness, and toxicity. |
+| What does Guardrails for Amazon Bedrock allow developers to do? | Guardrails for Amazon Bedrock (preview) to promote safe interactions between users and your generative AI applications by implementing safeguards customized to your use cases and responsible AI policies. |
 
 ## Notebooks
 

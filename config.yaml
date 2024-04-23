@@ -4,7 +4,7 @@ SageMaker:
     Modules:
       RemoteFunction:
         Dependencies: ./requirements.txt
-        ImageUri: '763104351884.dkr.ecr.us-east-1.amazonaws.com/huggingface-pytorch-training:2.0.0-transformers4.28.1-gpu-py310-cu118-ubuntu20.04'
+        ImageUri: '763104351884.dkr.ecr.us-east-1.amazonaws.com/huggingface-pytorch-training:2.1.0-transformers4.36.0-gpu-py310-cu121-ubuntu20.04'
         InstanceType: ml.g5.12xlarge
         #RoleArn: RoleArn required if you are running the notebooks from a local IDE
   Model:

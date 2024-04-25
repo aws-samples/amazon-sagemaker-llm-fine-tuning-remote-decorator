@@ -23,6 +23,8 @@ The dataset is the content of all AWS FAQ pages, downloaded from: https://aws.am
 
 ### [train_2.csv.gz](./train_2.csv.gz)
 
+The synthetic dataset is the content of official AWS Generative AI Blogs
+
 | question | answers |
 |-------|-------|
 | What new Anthropic model is now available on Amazon Bedrock?   | Claude 2.1 foundation model is now available on Amazon Bedrock.  |
@@ -37,4 +39,5 @@ The dataset is the content of all AWS FAQ pages, downloaded from: https://aws.am
 3. [[Unsupervised - chat] Llama-13B](./llama-13b-qlora-remote-decorator_unsupervised.ipynb)
 4. [[Unsupervised - Instruct] Mistral-7B](./mistral-7b-qlora-remote-decorator_unsupervised.ipynb)
 5. [[Supervised - Instruct] Mixtral-8x7B](./mixtral-8x7b-qlora-remote-decorator_qa.ipynb)
-6. [[Supervised - Instruct] Llama-3 8B](./llama-3-8b-qlora-remote-decorator_qa.ipynb)
+6. [[Supervised - Instruct] Code-Llama 13B](./code-llama-13b-qlora-remote-decorator.ipynb)
+7. [[Supervised - Instruct] Llama-3 8B](./llama-3-8b-qlora-remote-decorator_qa.ipynb)

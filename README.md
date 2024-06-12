@@ -4,6 +4,8 @@ In this example we will go through the steps required for fine-tuning foundation
 
 You can run this repository from Amazon SageMaker Studio or from your local IDE.
 
+For additional information, take a look at the AWS Blog [Fine-tune Falcon 7B and other LLMs on Amazon SageMaker with @remote decorator](https://aws.amazon.com/blogs/machine-learning/fine-tune-falcon-7b-and-other-llms-on-amazon-sagemaker-with-remote-decorator/)
+
 This notebook is inspired by [Philipp Schmid Blogs](https://www.philschmid.de/)
 
 ## Prerequistes

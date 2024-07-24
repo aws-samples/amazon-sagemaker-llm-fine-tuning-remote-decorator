@@ -1,9 +1,9 @@
-transformers==4.40.0
+transformers==4.43.1
 peft==0.10.0
 accelerate==0.29.3
 bitsandbytes==0.43.1
 evaluate==0.4.1
 safetensors>=0.4.3
-sagemaker==2.220.0
+sagemaker==2.226.1
 tokenizers>=0.19.1
 py7zr

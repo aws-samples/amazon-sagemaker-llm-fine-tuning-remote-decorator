@@ -4,6 +4,6 @@ accelerate==0.29.3
 bitsandbytes==0.43.1
 evaluate==0.4.1
 safetensors>=0.4.3
-sagemaker==2.226.1
+sagemaker==2.227.0
 tokenizers>=0.19.1
 py7zr

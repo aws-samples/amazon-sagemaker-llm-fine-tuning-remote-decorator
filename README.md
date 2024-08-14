@@ -12,6 +12,12 @@ This notebook is inspired by [Philipp Schmid Blogs](https://www.philschmid.de/)
 
 The notebooks are currently using the latest [HuggingFace](https://github.com/aws/deep-learning-containers/blob/master/available_images.md) Training Container available for the region `us-east-1`. If you are running the notebooks in a different region, make sure to update the *ImageUri* in the file [config.yaml](./config.yaml).
 
+### If you want to operate in a different AWS region
+
+1. Navigate [Available Deep Learning Containers Images](Available Deep Learning Containers Images)
+2. Select the right Hugging Face TGI container for model training based on your selected region
+3. Update *ImageUri* in the file [config.yaml](./config.yaml)
+
 ## Dataset
 
 ### [train.csv.gz](./train.csv.gz)

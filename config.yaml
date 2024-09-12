@@ -6,7 +6,17 @@ SageMaker:
         Dependencies: ./requirements.txt
         ImageUri: '763104351884.dkr.ecr.us-east-1.amazonaws.com/huggingface-pytorch-training:2.1.0-transformers4.36.0-gpu-py310-cu121-ubuntu20.04'
         InstanceType: ml.g5.12xlarge
+        IncludeLocalWorkDir: true
+        PreExecutionCommands:
+          - 'export NCCL_P2P_DISABLE=1'
+        CustomFileFilter:
+          IgnoreNamePatterns:
+          - "data/*"
+          - "models/*"
+          - "*.ipynb"
+          - "*.csv"
+          - "*.md"
+          - "__pycache__"
         #RoleArn: RoleArn required if you are running the notebooks from a local IDE
   Model:
-    #ExecutionRoleArn: RoleArn required if you are running the notebooks from a local IDE
     EnableNetworkIsolation: false

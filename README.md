@@ -46,8 +46,10 @@ The synthetic dataset is the content of official AWS Generative AI Blogs
 
 1. [[Supervised - Q&A] Falcon-7B](./falcon-7b-qlora-remote-decorator_qa.ipynb)
 2. [[Supervised - Q&A] Llama-13B](./llama-13b-qlora-remote-decorator_qa.ipynb)
-3. [[Unsupervised - chat] Llama-13B](./llama-13b-qlora-remote-decorator_unsupervised.ipynb)
-4. [[Unsupervised - Instruct] Mistral-7B](./mistral-7b-qlora-remote-decorator_unsupervised.ipynb)
+3. [[Self-supervised - chat] Llama-13B](./llama-13b-qlora-remote-decorator_selfsupervised.ipynb)
+4. [[Self-supervised - Instruct] Mistral-7B](./mistral-7b-qlora-remote-decorator_selfsupervised.ipynb)
 5. [[Supervised - Instruct] Mixtral-8x7B](./mixtral-8x7b-qlora-remote-decorator_qa.ipynb)
 6. [[Supervised - Instruct] Code-Llama 13B](./code-llama-13b-qlora-remote-decorator.ipynb)
 7. [[Supervised - Instruct] Llama-3 8B](./llama-3-8b-qlora-remote-decorator_qa.ipynb)
+8. [[Supervised - Instruct] Llama-3.1 8B](./llama-3.1-8b-qlora-remote-decorator_qa.ipynb)
+9. [[Supervised - Instruct] Arcee AI Llama-3.1 Supernova Lite](./arcee-ai-llama-3.1-supernova-lite-qlora-remote-decorator_qa.ipynb)

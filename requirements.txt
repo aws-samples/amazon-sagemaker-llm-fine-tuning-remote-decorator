@@ -1,0 +1,12 @@
+transformers==4.45.2
+peft==0.13.2
+accelerate==1.1.0
+bitsandbytes==0.44.1
+datasets==3.1.0
+evaluate==0.4.1
+safetensors>=0.4.5
+sagemaker==2.235.1
+sentencepiece==0.2.0
+scikit-learn==1.5.2
+tokenizers>=0.20.1
+py7zr

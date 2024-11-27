@@ -10,52 +10,13 @@ This notebook is inspired by [Philipp Schmid Blogs](https://www.philschmid.de/)
 
 ## Prerequistes
 
-The notebooks are currently using the latest [HuggingFace](https://github.com/aws/deep-learning-containers/blob/master/available_images.md) Training Container available for the region `us-east-1`. If you are running the notebooks in a different region, make sure to update the *ImageUri* in the file [config.yaml](./config.yaml).
+The notebooks are currently using the latest [PyTorch](https://github.com/aws/deep-learning-containers/blob/master/available_images.md) Training Container available for the region `us-east-1`. If you are running the notebooks in a different region, make sure to update the *ImageUri* in the file [config.yaml](./config.yaml).
 
 ### If you want to operate in a different AWS region
 
 1. Navigate [Available Deep Learning Containers Images](Available Deep Learning Containers Images)
 2. Select the right Hugging Face TGI container for model training based on your selected region
 3. Update *ImageUri* in the file [config.yaml](./config.yaml)
-
-## Dataset
-
-### [train.csv.gz](./train.csv.gz)
-
-The dataset is the content of [AmazonQA: A Review-Based Question Answering Task](https://github.com/amazonqa/amazonqa?tab=readme-ov-file) from row 0 to 200
-
-| question | answers |
-|-------|-------|
-| What ISO range is covered when in set on auto-... | I believe it is 12800 or 25600 by default. I s... |
-| Will this fit the Nordic Ware 13x18 Baking Pan...	| YES!!! I purchased both and I was a bit conc... |
-| Will these fit 35"-36" inseam? | I use a 32" and I would say a 34" would be the... |
-| How long does it take for flowers to blossom? | 1 to 3 minutes. |
-| Will these fit a 1997 Dodge 2500 4wd pickup? | No, the kit you need is made specifically for ... |
-
-
-### [train_2.csv.gz](./train_2.csv.gz)
-
-The dataset is the content of [AmazonQA: A Review-Based Question Answering Task](https://github.com/amazonqa/amazonqa?tab=readme-ov-file) from row 201 to 401
-
-| question | answers |
-|-------|-------|
-| Does this frame fit on risers? | Yes, but underbed storage boxes fit without them |
-| how does the case stay closed (with keyboard a...	| Hi Nate. It is slightly magnetized without the... |
-| I have Left & Right JVC MX GT88 speakers both ...	| The RCA output jack is for the subwoofer only.... |
-| I want to use my fizz giz with a large co2tank...	| I asked MrFizz the same question in a email an... |
-| What are the dimensions of this item?	| Specifications: * 300 watts RMS @ 0.5% THD int... |
-
-### [train_3.csv.gz](./train_3.csv.gz)
-
-The dataset is the content of [AmazonQA: A Review-Based Question Answering Task](https://github.com/amazonqa/amazonqa?tab=readme-ov-file) from row 402 to 602
-
-| question | answers |
-|-------|-------|
-| Is this TV 120Hz or 240hz actually? Because I ...	| I think is a 120 Hz I wish and hope you guys c... |
-| What type of voltage does this use? is it dual...	| 110 volts |
-| This thing seems to be designed for the big 20...	| the unit works very well with the small canisters |
-| Is there a setting to automatically start trac...	| No. As soon as you turn the power switch to on... |
-| Is she a viened reborn? | No |
 
 ## Notebooks
 

@@ -36,3 +36,5 @@ The notebooks are currently using the latest [PyTorch](https://github.com/aws/de
 14. [[Supervised - LoRA] Arcee Lite 1.5B](./arcee-ai-arcee-lite-1.5b-lora-remote-decorator_qa.ipynb)
 15. [[Supervised - LoRA] SmolLM2-1.7B-Instruct](./smollm2-1.7b-lora-remote-decorator_qa.ipynb)
 16. [[Supervised - QLORA, FSDP] Qwen 2.5 7B](./qwen-2.5-7b-qlora-fsdp-remote-decorator_qa.ipynb)
+17. [[Supervised - QLORA] Falcon3 3B](./falcon3-3b-qlora-remote-decorator_qa.ipynb)
+18. [[Supervised - QLORA, DDP] Falcon3 7B](./falcon3-7b-ddp-qlora-remote-decorator_qa.ipynb)

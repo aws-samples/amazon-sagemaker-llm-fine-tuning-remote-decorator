@@ -4,7 +4,7 @@ SageMaker:
     Modules:
       RemoteFunction:
         Dependencies: ./requirements.txt
-        ImageUri: '763104351884.dkr.ecr.us-east-1.amazonaws.com/pytorch-training:2.4-gpu-py311'
+        ImageUri: '763104351884.dkr.ecr.us-east-1.amazonaws.com/pytorch-training:2.5.1-gpu-py311-cu124-ubuntu22.04-sagemaker'
         InstanceType: ml.g5.12xlarge
         IncludeLocalWorkDir: true
         PreExecutionCommands:

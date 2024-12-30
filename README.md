@@ -20,11 +20,11 @@ The notebooks are currently using the latest [PyTorch](https://github.com/aws/de
 
 ## Notebooks
 
-1. [[Supervised - QLoRA] Falcon-7B](./falcon-7b-qlora-remote-decorator_qa.ipynb)
-2. [[Supervised - QLoRA, DDP] Llama-13B](./llama-13b-qlora-ddp-remote-decorator_qa.ipynb)
-3. [[Self-supervised - QLoRA, DDP] Llama-13B](./llama-13b-qlora-ddp-remote-decorator_selfsupervised.ipynb)
+1. [[Supervised - QLoRA] Falcon-7B](./falcon-7b-ddp-qlora-remote-decorator_qa.ipynb)
+2. [[Supervised - QLoRA, FSDP] Llama-13B](./llama-13b-qlora-fsdp-remote-decorator_qa.ipynb)
+3. [[Self-supervised - QLoRA, FSDP] Llama-13B](./llama-13b-qlora-fsdp-remote-decorator_selfsupervised.ipynb)
 4. [[Self-supervised - QLoRA] Mistral-7B](./mistral-7b-qlora-remote-decorator_selfsupervised.ipynb)
-5. [[Supervised - QLoRA, DDP] Mixtral-8x7B](./mixtral-8x7b-qlora-ddp-remote-decorator_qa.ipynb)
+5. [[Supervised - QLoRA, FSDP] Mixtral-8x7B](./mixtral-8x7b-qlora-fsdp-remote-decorator_qa.ipynb)
 6. [[Supervised - QLoRA, DDP] Code-Llama 13B](./code-llama-13b-qlora-ddp-remote-decorator.ipynb)
 7. [[Supervised - QLORA, DDP] Llama-3 8B](./llama-3-8b-qlora-ddp-remote-decorator_qa.ipynb)
 8. [[Supervised - QLoRA, DDP] Llama-3.1 8B](./llama-3.1-8b-qlora-ddp-remote-decorator_qa.ipynb)
@@ -37,4 +37,4 @@ The notebooks are currently using the latest [PyTorch](https://github.com/aws/de
 15. [[Supervised - LoRA] SmolLM2-1.7B-Instruct](./smollm2-1.7b-lora-remote-decorator_qa.ipynb)
 16. [[Supervised - QLORA, FSDP] Qwen 2.5 7B](./qwen-2.5-7b-qlora-fsdp-remote-decorator_qa.ipynb)
 17. [[Supervised - QLORA] Falcon3 3B](./falcon3-3b-qlora-remote-decorator_qa.ipynb)
-18. [[Supervised - QLORA, DDP] Falcon3 7B](./falcon3-7b-ddp-qlora-remote-decorator_qa.ipynb)
+18. [[Supervised - QLORA, FSDP] Falcon3 7B](./falcon3-7b-fsdp-qlora-remote-decorator_qa.ipynb)

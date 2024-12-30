@@ -9,6 +9,7 @@ SageMaker:
         IncludeLocalWorkDir: true
         PreExecutionCommands:
           - 'export NCCL_P2P_DISABLE=1'
+          - 'export HF_HUB_ENABLE_HF_TRANSFER=1'
         CustomFileFilter:
           IgnoreNamePatterns:
           - "data/*"

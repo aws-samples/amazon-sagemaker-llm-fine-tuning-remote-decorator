@@ -39,3 +39,5 @@ The notebooks are currently using the latest [PyTorch](https://github.com/aws/de
 17. [[Supervised - QLORA] Falcon3 3B](./falcon3-3b-qlora-remote-decorator_qa.ipynb)
 18. [[Supervised - QLORA, FSDP] Falcon3 7B](./falcon3-7b-fsdp-qlora-remote-decorator_qa.ipynb)
 19. [[Supervised - QLORA, FSDP] Llama-3.1 70B](./llama-3.1-70b-fsdp-qlora-remote-decorator_qa.ipynb)
+20. [[Self-supervised - DoRA, FSDP] Mistral-7B v0.3](./mistral-7b-fsdp-dora-remote-decorator_qa.ipynb)
+21. [[Supervised - QLORA, FSDP] Llama-3.3 70B](./llama-3.3-70b-fsdp-qlora-remote-decorator_qa.ipynb)

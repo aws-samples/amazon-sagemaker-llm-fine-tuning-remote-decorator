@@ -41,3 +41,4 @@ The notebooks are currently using the latest [PyTorch](https://github.com/aws/de
 19. [[Supervised - QLORA, FSDP] Llama-3.1 70B](./llama-3.1-70b-fsdp-qlora-remote-decorator_qa.ipynb)
 20. [[Self-supervised - DoRA, FSDP] Mistral-7B v0.3](./mistral-7b-fsdp-dora-remote-decorator_qa.ipynb)
 21. [[Supervised - QLORA, FSDP] Llama-3.3 70B](./llama-3.3-70b-fsdp-qlora-remote-decorator_qa.ipynb)
+22. [[Supervised - QLORA, FSDP] OpenCoder-8B-Instruct](./opencoder-8b-qlora-remote-decorator_qa.ipynb)

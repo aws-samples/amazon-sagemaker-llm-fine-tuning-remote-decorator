@@ -6,11 +6,14 @@ You can run this repository from Amazon SageMaker Studio or from your local IDE.
 
 For additional information, take a look at the AWS Blog [Fine-tune Falcon 7B and other LLMs on Amazon SageMaker with @remote decorator](https://aws.amazon.com/blogs/machine-learning/fine-tune-falcon-7b-and-other-llms-on-amazon-sagemaker-with-remote-decorator/)
 
-This notebook is inspired by [Philipp Schmid Blogs](https://www.philschmid.de/)
-
 ## Prerequistes
 
+
 The notebooks are currently using the latest [PyTorch](https://github.com/aws/deep-learning-containers/blob/master/available_images.md) Training Container available for the region `us-east-1`. If you are running the notebooks in a different region, make sure to update the *ImageUri* in the file [config.yaml](./config.yaml).
+
+### Make sure the Python version in your local environment matches the one in the used container
+
+Python version used in the training container: Python 3.11
 
 ### If you want to operate in a different AWS region
 
@@ -42,3 +45,5 @@ The notebooks are currently using the latest [PyTorch](https://github.com/aws/de
 20. [[Self-supervised - DoRA, FSDP] Mistral-7B v0.3](./mistral-7b-fsdp-dora-remote-decorator_qa.ipynb)
 21. [[Supervised - QLORA, FSDP] Llama-3.3 70B](./llama-3.3-70b-fsdp-qlora-remote-decorator_qa.ipynb)
 22. [[Supervised - QLORA, FSDP] OpenCoder-8B-Instruct](./opencoder-8b-qlora-remote-decorator_qa.ipynb)
+23. [[Supervised - QLORA, FSDP] DeepSeek-R1-Distill-Qwen-32B](./deepseek-r1-distilled-qwen-32b-fsdp-qlora-remote-decorator_qa.ipynb)
+24. [[Supervised - QLORA, FSDP] DeepSeek-R1-Distill-Llama-70B](./deepseek-r1-distilled-llama-70b-fsdp-qlora-remote-decorator_qa.ipynb)

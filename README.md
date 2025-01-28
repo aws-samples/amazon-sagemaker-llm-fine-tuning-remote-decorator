@@ -45,3 +45,6 @@ Python version used in the training container: Python 3.11
 20. [[Self-supervised - DoRA, FSDP] Mistral-7B v0.3](./mistral-7b-fsdp-dora-remote-decorator_qa.ipynb)
 21. [[Supervised - QLORA, FSDP] Llama-3.3 70B](./llama-3.3-70b-fsdp-qlora-remote-decorator_qa.ipynb)
 22. [[Supervised - QLORA, FSDP] OpenCoder-8B-Instruct](./opencoder-8b-qlora-remote-decorator_qa.ipynb)
+23. [[Supervised - QLORA, FSDP] DeepSeek-R1-Distill-Qwen-32B](./deepseek-r1-distilled-qwen-32b-fsdp-qlora-remote-decorator_qa.ipynb)
+24. [[Supervised - QLORA, FSDP] DeepSeek-R1-Distill-Llama-70B](./deepseek-r1-distilled-llama-70b-fsdp-qlora-remote-decorator_qa.ipynb)
+25. [[Supervised - QLORA, FSDP] DeepSeek-R1-Distill-Llama-8B](./deepseek-r1-distilled-llama-8b-fsdp-qlora-remote-decorator_qa.ipynb)

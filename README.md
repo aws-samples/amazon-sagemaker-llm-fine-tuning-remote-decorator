@@ -48,4 +48,4 @@ Python version used in the training container: Python 3.11
 23. [[Supervised - QLORA, FSDP] DeepSeek-R1-Distill-Qwen-32B](./deepseek-r1-distilled-qwen-32b-fsdp-qlora-remote-decorator_qa.ipynb)
 24. [[Supervised - QLORA, FSDP] DeepSeek-R1-Distill-Llama-70B](./deepseek-r1-distilled-llama-70b-fsdp-qlora-remote-decorator_qa.ipynb)
 25. [[Supervised - QLORA, FSDP] DeepSeek-R1-Distill-Llama-8B](./deepseek-r1-distilled-llama-8b-fsdp-qlora-remote-decorator_qa.ipynb)
-26. [[Supervised - QLORA, DDP] DeepSeek-R1-Distill-Llama-8B](./deepseek-r1-distilled-qwen-1.5b-qlora-remote-decorator_qa.ipynb)
+26. [[Supervised - QLORA, DDP] DeepSeek-R1-Distill-Qwen-1.5B](./deepseek-r1-distilled-qwen-1.5b-qlora-remote-decorator_qa.ipynb)

@@ -4,6 +4,8 @@ In this example we will go through the steps required for interactively fine-tun
 
 You can run this repository from Amazon SageMaker Studio or from your local IDE.
 
+The scope of these notebook examples is to showcase interactive experience with SageMaker AI capabilities, and @remote decorator, for Small/Large Language Models fine-tuning by using different distribution techniques, such as FSDP, and DDP.
+
 For additional information, take a look at the AWS Blog [Fine-tune Falcon 7B and other LLMs on Amazon SageMaker with @remote decorator](https://aws.amazon.com/blogs/machine-learning/fine-tune-falcon-7b-and-other-llms-on-amazon-sagemaker-with-remote-decorator/)
 
 ## Prerequistes
@@ -49,4 +51,4 @@ Python version used in the training container: Python 3.11
 24. [[Supervised - QLORA, FSDP] DeepSeek-R1-Distill-Llama-70B](./deepseek/deepseek-r1-distilled-llama-70b-fsdp-qlora-remote-decorator_qa.ipynb)
 25. [[Supervised - QLORA, FSDP] DeepSeek-R1-Distill-Llama-8B](./deepseek/deepseek-r1-distilled-llama-8b-fsdp-qlora-remote-decorator_qa.ipynb)
 26. [[Supervised - QLORA, DDP] DeepSeek-R1-Distill-Qwen-1.5B](./deepseek/deepseek-r1-distilled-qwen-1.5b-qlora-remote-decorator_qa.ipynb)
-27. [[Supervised - LORA, FSDP] DeepSeek-R1-Distill-Qwen-7B](./deepseek/deepseek-r1-distilled-qwen-7b-fsdp-lora-remote-decorator_qa.ipynb)
+27. [[Supervised - QLORA, FSDP] DeepSeek-R1-Distill-Qwen-7B](./deepseek/deepseek-r1-distilled-qwen-7b-fsdp-qlora-remote-decorator_qa.ipynb)

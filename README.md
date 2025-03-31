@@ -16,6 +16,8 @@ The notebooks are currently using the latest [PyTorch](https://github.com/aws/de
 
 Python version used in the training container: Python 3.11
 
+⚠️ Make sure your local Python version is aligned with the Python version in the container.
+
 ### If you want to operate in a different AWS region
 
 1. Navigate [Available Deep Learning Containers Images](Available Deep Learning Containers Images)
@@ -52,3 +54,28 @@ Python version used in the training container: Python 3.11
 26. [[Supervised - QLORA, DDP] DeepSeek-R1-Distill-Qwen-1.5B](./deepseek/deepseek-r1-distilled-qwen-1.5b-qlora-remote-decorator_qa.ipynb)
 27. [[Supervised - QLORA, FSDP] DeepSeek-R1-Distill-Qwen-7B](./deepseek/deepseek-r1-distilled-qwen-7b-fsdp-qlora-remote-decorator_qa.ipynb)
 28. [[Supervised - QLORA, FSDP] Mistral-Small-24B-Instruct-2501](./mistral/mistral-small-24b-fsdp-qlora-remote-decorator_qa.ipynb)
+
+---
+
+## Troubleshoot
+
+```
+return cloudpickle.loads(bytes_to_deserialize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last): in deserialize return cloudpickle.loads(bytes_to_deserialize)
+YYYY-MM-DDThh:mm:ss
+AttributeError: Can't get attribute '_function_setstate' on <module 'cloudpickle.cloudpickle' from '/opt/conda/lib/python3.11/site-packages/cloudpickle/cloudpickle.py'>
+```
+
+### Solution
+
+Align your `cloudpickle` local version to the container one, by including in your `requirements.txt`:
+
+```yaml
+cloudpickle==x.x.x
+```
+
+Where x.x.x is the version you want to install.
+
+---
+

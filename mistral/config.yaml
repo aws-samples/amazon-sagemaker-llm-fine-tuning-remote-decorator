@@ -12,12 +12,12 @@ SageMaker:
           - "export HF_HUB_ENABLE_HF_TRANSFER=1"
         CustomFileFilter:
           IgnoreNamePatterns:
-          - "data/*"
-          - "models/*"
-          - "*.ipynb"
-          - "*.csv"
-          - "*.md"
-          - "__pycache__"
+            - "data/*"
+            - "models/*"
+            - "*.ipynb"
+            - "*.csv"
+            - "*.md"
+            - "__pycache__"
         #RoleArn: RoleArn required if you are running the notebooks from a local IDE
   Model:
     EnableNetworkIsolation: false

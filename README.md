@@ -59,7 +59,7 @@ Python version used in the training container: Python 3.11
 
 ## Troubleshoot
 
-### Error cloudpickle._function_setstate
+### Issue 1 - Error cloudpickle._function_setstate
 ```
 return cloudpickle.loads(bytes_to_deserialize)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -80,21 +80,7 @@ Where x.x.x is the version you want to install.
 
 ---
 
-### Error unpickle_exception() takes 4 positional arguments but 7 were given').
-
-```
-Error when deserializing bytes downloaded from 
-s3://<BUCKET>/<PATH>/exception/payload.pkl: TypeError('unpickle_exception() takes 4 positional arguments 
-but 7 were given'). NOTE: this may be caused by inconsistent sagemaker python sdk versions where remote function 
-runs versus the one used on client side. If the sagemaker versions do not match, a warning message would be logged 
-starting with 'Inconsistent sagemaker versions found'. Please check it to validate.
-```
-
-This behavior may happen in case you are executing the @remote training job from a local environment with CPU
-
----
-
-### Error: TypeError when deserializing bytes from S3
+### Issue 2 - Error: TypeError when deserializing bytes from S3
 
 ```
 Error when deserializing bytes downloaded from s3:////exception/payload.pkl:

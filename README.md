@@ -1,12 +1,18 @@
 # Interactive fine-tuning of Foundation Models with Amazon SageMaker Training using @remote decorator
 
-### 💡 Important: The scope of these notebook examples is to showcase interactive experience with SageMaker AI capabilities and @remote decorator, for Small/Large Language Models fine-tuning by using different distribution techniques, such as FSDP, and DDP. After your interactive experimentation and testing, the recommended path to prod is through SageMaker [ModelTrainer](https://sagemaker.readthedocs.io/en/stable/api/training/model_trainer.html).
-
 In this example we will go through the steps required for interactively fine-tuning foundation models on Amazon SageMaker AI by using @remote decorator for executing Training jobs.
 
 You can run this repository from Amazon SageMaker Studio or from your local IDE.
 
 For additional information, take a look at the AWS Blog [Fine-tune Falcon 7B and other LLMs on Amazon SageMaker with @remote decorator](https://aws.amazon.com/blogs/machine-learning/fine-tune-falcon-7b-and-other-llms-on-amazon-sagemaker-with-remote-decorator/)
+
+### 💡 Important: The scope of these notebook examples is to showcase interactive experience with SageMaker AI capabilities and @remote decorator, for Small/Large Language Models fine-tuning by using different distribution techniques, such as FSDP, and DDP. After your interactive experimentation and testing, the recommended path to prod is through SageMaker [ModelTrainer](https://sagemaker.readthedocs.io/en/stable/api/training/model_trainer.html).
+
+## Table of Contents
+
+- [Prerequisites](#prerequistes)
+- [Notebooks](#notebooks)
+- [Troubleshoot](#troubleshoot)
 
 ## Prerequistes
 

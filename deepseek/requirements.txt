@@ -8,7 +8,7 @@ evaluate==0.4.3
 huggingface_hub[hf_transfer]
 safetensors>=0.5.2
 sagemaker==2.244.0
-sentencepiece==0.2.0
+sentencepiece==0.2.1
 scikit-learn==1.6.1
 tokenizers>=0.21.1
 py7zr
